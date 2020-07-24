@@ -1,7 +1,7 @@
 pipeline{
     agent{label 'master'}
     tools{
-        maven 'M3'
+        maven 'Maven-Jenkins'
     }
     stages{
         stage('Checkout'){
