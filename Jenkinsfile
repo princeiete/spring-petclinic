@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'master'}
+    agent{label 'Slave-1'}
     tools{
         maven 'Maven-Jenkins'
     }
